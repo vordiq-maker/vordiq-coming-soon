@@ -2,81 +2,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>VORDIQ – Coming Soon</title>
-    <link rel="icon" type="image/png" href="favicon.png"/>
-    <style>
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html, body {
-            height: 100%;
-            font-family: 'Segoe UI', sans-serif;
-        }
-        body {
-            background: url('background.png') no-repeat center center fixed;
-            background-size: cover;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        .content {
-            background-color: rgba(0, 0, 0, 0.6);
-            padding: 2rem;
-            border-radius: 1rem;
-            max-width: 90%;
-            animation: fadeIn 1.2s ease-out forwards;
-            opacity: 0;
-        }
-        h1 {
-            font-size: 2rem;
-            color: #fff;
-            margin-bottom: 0.5rem;
-        }
-        p {
-            font-size: 1.1rem;
-            color: #ddd;
-            margin-bottom: 2rem;
-        }
-        .button {
-            display: inline-block;
-            background-color: #fff;
-            color: #c00000;
-            font-weight: bold;
-            padding: 1rem 2rem;
-            border-radius: 2rem;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-            cursor: pointer;
-        }
-        .button:hover {
-            background-color: #f0f0f0;
-        }
-        .subtext {
-            font-size: 0.9rem;
-            color: #555;
-            margin-top: 0.5rem;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VORDIQ – Coming Soon</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .button-container {
+      margin-top: 40px;
+    }
+    .subscribe-button {
+      background-color: #e60000;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 16px 32px;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+  </style>
 </head>
 <body>
-    <div class="content">
-        <h1>We are building Europe’s Smartest Drilling Platform</h1>
-        <p>From Water wells to Geotechnics and Mining – <em>we simplify heavy drilling</em></p>
-        
-<a class="button" href="mailto:members@vordiq.eu?subject=Early%20Access%20Request&body=I%20would%20like%20to%20subscribe%20for%20early%20access%20and%20become%20Member%20of%20the%20European%20smartest%20drilling%20platform%20and%20get%20lifetime%20perks%2C%20discounts%20and%20benefits%20that%20only%20early%20subscribers%20get.%0A%0AJust%20fill%20in%20your%20%3A%0A%0AName%3A%0ACompany%3A%0AEmail%3A%0APhone%20(optional)%3A%0A%0AAnd%20we%20get%20in%20contact%20with%20you%20when%20we%20go%20live!%0A%0AWe%20are%20D...
-    Join early.<br>Get lifetime member perks.
-</a>
-
-        <div class="subtext">(Click Here)</div>
-    </div>
+  <div class="button-container">
+    <a href="mailto:subscribe@vordiq.com?subject=Early%20Access%20Request&body=Name:%0D%0ACompany:%0D%0AEmail:%0D%0APhone (optional):%0D%0A%0D%0AI would like to subscribe for early access to VORDIQ and receive lifetime member perks." class="subscribe-button">
+      Join Early – Get Lifetime Member Perks
+    </a>
+  </div>
 </body>
-</html> 
+</html>
