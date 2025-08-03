@@ -2,48 +2,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VORDIQ – Coming Soon</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: url('background.png') no-repeat center center fixed;
-      background-size: cover;
-      font-family: 'Segoe UI', sans-serif;
-      color: white;
-      text-align: center;
-    }
-    .content {
-      padding-top: 22vh;
-    }
-    .cta-button {
-      display: inline-block;
-      background-color: #e60000;
-      color: white;
-      font-weight: bold;
-      padding: 14px 32px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 20px;
-      margin-top: 50px;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>VORDIQ Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Exo 2', sans-serif;
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            position: relative;
+            top: 10vh;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .subtitle {
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+        .logo {
+            margin: 30px auto 10px;
+            width: 150px;
+        }
+        .brand {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .tagline {
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+        .benefits {
+            font-size: 1rem;
+            color: #eee;
+            margin-bottom: 20px;
+        }
+        .cta {
+            background-color: #e00000;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1rem;
+            font-weight: 700;
+            color: white;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        .cta:hover {
+            background-color: #c00000;
+        }
+    </style>
 </head>
 <body>
-  <div class="content">
-    <p style="font-size: 20px;">Coming soon:</p>
-    <h1>We are building Europe`s Smartest Online Drilling AI Platform</h1>
-    <p style="font-size: 18px; font-style: italic;">
-      From Water wells to Geotechnics and Mining – <i>we simplify heavy drilling</i>
-    </p>
-    <img src="favicon.png" alt="Vordiq Logo" width="150" style="margin: 40px 0;">
-    <p style="font-size: 16px; font-weight: 400;">Engineered to Cut. Built to Last.</p>
-    <a href="mailto:subscribe@vordiq.com?subject=Early Access Request&body=I would like to subscribe for early access and become a Member of Europe’s smartest drilling platform.%0A%0AName:%0ACompany:%0AEmail:%0APhone (optional):" class="cta-button">
-      🚀 Be the first. Stay ahead.
-    </a>
-  </div>
+    <div class="container">
+        <p>Coming soon:</p>
+        <h1>We are building Europe`s Smartest Online Drilling AI Platform</h1>
+        <p class="subtitle">From Water wells to Geotechnics and Mining – <em>we simplify heavy drilling</em></p>
+        <img src="logo.png" alt="VORDIQ Logo" class="logo" />
+        <div class="brand">VORDIQ</div>
+        <div class="tagline">Engineered to Cut. Built to Last.</div>
+        <div class="benefits">Founding Members enjoy lifetime benefits, early deals and direct AI support.</div>
+        <button class="cta">📌 Be the first. Stay ahead.</button>
+    </div>
 </body>
 </html>
-   
