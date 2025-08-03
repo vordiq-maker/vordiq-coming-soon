@@ -2,53 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VORDIQ Coming Soon</title>
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VORDIQ – Coming Soon</title>
+  <link rel="icon" type="image/png" href="favicon.png">
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
-      background-image: url('background.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 100vh;
-      color: white;
+      box-sizing: border-box;
+    }
+    body {
       font-family: 'Segoe UI', sans-serif;
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      text-align: center;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: flex-start;
-      text-align: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px 20px;
     }
-    .cta {
-      margin-top: 30px;
+    .cta-button {
+      background-color: #e00000;
+      color: #fff;
+      padding: 15px 25px;
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      margin-bottom: 40px;
     }
-    .cta h2 {
-      font-size: 1.2rem;
+    .cta-button:hover {
+      background-color: #b30000;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
       margin-bottom: 10px;
     }
-    .cta a {
-      background-color: #d80000;
-      color: white;
-      padding: 12px 24px;
-      font-weight: bold;
-      border-radius: 12px;
-      text-decoration: none;
-      font-size: 1rem;
-      transition: background-color 0.3s ease;
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      font-style: italic;
     }
-    .cta a:hover {
-      background-color: #a00000;
+    .logo {
+      width: 150px;
+      margin: 20px 0;
+    }
+    .subtext {
+      font-size: 0.9rem;
+      margin-top: 10px;
+      opacity: 0.85;
     }
   </style>
 </head>
 <body>
-  <div class="cta">
-    <h2>🚀 Be the first. Stay ahead.</h2>
-    <a href="mailto:subscribe@vordiq.com?subject=Early Member Subscription&body=Name:%0ACompany:%0AEmail:%0APhone (optional):%0A%0AI would like to subscribe for early access and become a Lifetime Member.">Claim Lifetime Member Perks</a>
+  <a href="mailto:subscribe@vordiq.com?subject=Early Access Request&body=I would like to subscribe for early access and become Member of the European smartest drilling platform and get lifetime perks, discounts and benefits that only early subscribers get. %0D%0A%0D%0AName:%0D%0ACompany:%0D%0AEmail:%0D%0APhone (optional):" class="cta-button">
+    🚀 Be the first. Stay ahead.
+  </a>
+
+  <div>
+    <h3>Coming soon:</h3>
+    <h1>We are building Europe`s Smartest Online Drilling AI Platform</h1>
+    <p>From Water wells to Geotechnics and Mining – <i>we simplify heavy drilling</i></p>
+    <img src="favicon.png" alt="VORDIQ Logo" class="logo"/>
+    <div class="subtext">Engineered to Cut. Built to Last.</div>
   </div>
 </body>
 </html>
- 
